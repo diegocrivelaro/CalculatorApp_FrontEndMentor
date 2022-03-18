@@ -1,0 +1,94 @@
+/*-------------------------------*/
+/* Container */
+/*-------------------------------*/
+.container {
+  width: 100%;
+  max-width: 600px;
+}
+/*-------------------------------*/
+
+/*-------------------------------*/
+/* HEADER */
+/*-------------------------------*/
+header {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 20px 0;
+}
+
+header .title {
+  font: 800 1.4rem "Spartan", sans-serif;
+}
+
+header .change_theme {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  gap: 1.2rem;
+  align-items: flex-end;
+}
+
+header .range_description {
+  font: 600 0.6rem "Spartan", sans-serif;
+}
+
+header .change_theme_label {
+  font: 600 0.6rem "Spartan", sans-serif;
+}
+
+header form {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  flex-direction: column;
+  align-items: center;
+}
+
+header #theme_range {
+  width: 54px;
+  cursor: pointer;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+header #theme_range::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 24px;
+  padding: 0 0.3rem;
+  border-radius: 50px;
+}
+
+header #theme_range::-webkit-slider-thumb {
+  width: 14px;
+  height: 14px;
+  margin: 6px 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 50px;
+}
+/*-------------------------------*/
+
+/*-------------------------------*/
+/* DISPLAY */
+/*-------------------------------*/
+main .display {
+  width: 100%;
+  height: 100px;
+  padding: 0 1.2rem;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  align-items: center;
+  justify-content: end;
+  border-radius: 8px;
+}
+
+main .display > .result {
+  font: 700 2rem "Spartan", sans-serif;
+  text-align: end;
+}
+/*-------------------------------*/
