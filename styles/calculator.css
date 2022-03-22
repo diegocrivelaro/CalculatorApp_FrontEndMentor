@@ -14,6 +14,7 @@ header {
   display: flex;
   display: -webkit-flex;
   display: -ms-flexbox;
+  display: -moz-box;
   justify-content: space-between;
   align-items: center;
   margin: 0 0 20px 0;
@@ -27,6 +28,7 @@ header .change_theme {
   display: flex;
   display: -webkit-flex;
   display: -ms-flexbox;
+  display: -moz-box;
   gap: 1.2rem;
   align-items: flex-end;
 }
@@ -43,6 +45,7 @@ header form {
   display: flex;
   display: -webkit-flex;
   display: -ms-flexbox;
+  display: -moz-box;
   flex-direction: column;
   align-items: center;
 }
@@ -82,6 +85,7 @@ main .display {
   display: flex;
   display: -webkit-flex;
   display: -ms-flexbox;
+  display: -moz-box;
   align-items: center;
   justify-content: end;
   border-radius: 8px;
