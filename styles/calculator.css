@@ -34,20 +34,23 @@ header .change_theme {
 }
 
 header .range_description {
-  font: 600 0.6rem "Spartan", sans-serif;
+  margin-bottom: 6px;
+  font: 600 0.7rem "Spartan", sans-serif;
 }
 
 header .change_theme_label {
   font: 600 0.6rem "Spartan", sans-serif;
 }
 
-header form {
+header .theme_options {
+  margin-bottom: 4px;
   display: flex;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: -moz-box;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-around;
 }
 
 header #theme_range {
