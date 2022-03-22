@@ -2,23 +2,21 @@
 /* THEME01 */
 /*-------------------------------*/
 :root {
-  --white: #ffffff;
-
-  --VDB_color_main_bg: hsl(0, 0%, 90%);
-  --VDB_color_toggle_bg: hsl(0, 5%, 81%);
-  --VDB_color_keypad_bg: hsl(0, 5%, 81%);
-  --VDB_color_screen_bg: hsl(0, 0%, 93%);
-  --VDB_color_key_bg: hsl(185, 42%, 37%);
-  --VDB_color_key_shadow: hsl(185, 58%, 25%);
-  --RED_color_key_bg: hsl(25, 98%, 40%);
-  --RED_color_key_bg_toggle: hsl(25, 98%, 40%);
-  --LGO_color_key_bg: hsl(45, 7%, 89%);
-  --GO_color_key_shadow: hsl(35, 11%, 61%);
-  --VDGB_color: hsl(60, 10%, 19%);
+  --THEME2_color_main_bg: hsl(0, 0%, 90%);
+  --THEME2_color_toggle_bg: hsl(0, 5%, 81%);
+  --THEME2_color_keypad_bg: hsl(0, 5%, 81%);
+  --THEME2_color_screen_bg: hsl(0, 0%, 93%);
+  --THEME2_color_key_bg: hsl(185, 42%, 37%);
+  --THEME2_color_key_shadow: hsl(185, 58%, 25%);
+  --THEME2_color_key_bg: hsl(25, 98%, 40%);
+  --THEME2_color_key_bg_toggle: hsl(25, 98%, 40%);
+  --THEME2_color_key_bg: hsl(45, 7%, 89%);
+  --THEME2_color_key_shadow: hsl(35, 11%, 61%);
+  --THEME2_color: hsl(60, 10%, 19%);
 }
 
 .theme2_bg_body {
-  background-color: var(--VDB_color_main_bg);
+  background-color: var(--THEME2_color_main_bg);
 }
 
 .theme2 .theme2_text_white {
@@ -26,15 +24,15 @@
 }
 
 .theme2 .theme2_style_range_srt::-webkit-slider-runnable-track {
-  background-color: var(--VDB_color_toggle_bg);
+  background-color: var(--THEME2_color_toggle_bg);
 }
 
 .theme2 .theme2_style_range_st::-webkit-slider-thumb {
-  background-color: var(--RED_color_key_bg_toggle);
+  background-color: var(--THEME2_color_key_bg_toggle);
 }
 
 .theme2 .theme2_display_screen {
-  background-color: var(--VDB_color_screen_bg);
+  background-color: var(--THEME2_color_screen_bg);
 }
 
 .theme2 .theme2_result {
