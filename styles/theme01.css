@@ -21,23 +21,23 @@
   background-color: var(--VDB_color_main_bg);
 }
 
-.theme1_text_white {
+.theme1 .theme1_text_white {
   color: var(--white);
 }
 
-.theme1_style_range_srt::-webkit-slider-runnable-track {
+.theme1 .theme1_style_range_srt::-webkit-slider-runnable-track {
   background-color: var(--VDB_color_toggle_bg);
 }
 
-.theme1_style_range_st::-webkit-slider-thumb {
+.theme1 .theme1_style_range_st::-webkit-slider-thumb {
   background-color: var(--RED_color_key_bg_toggle);
 }
 
-.theme1_display_screen {
+.theme1 .theme1_display_screen {
   background-color: var(--VDB_color_screen_bg);
 }
 
-.theme1_result {
+.theme1 .theme1_result {
   color: var(--white);
 }
 /*-------------------------------*/
