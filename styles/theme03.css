@@ -1,0 +1,47 @@
+/*-------------------------------*/
+/* THEME01 */
+/*-------------------------------*/
+:root {
+  --THEME3_color_VDV_main_bg: hsl(268, 75%, 9%);
+  --THEME3_color_VDV_toggle_bg: hsl(268, 71%, 12%);
+  --THEME3_color_VDV_keypad_bg: hsl(268, 71%, 12%);
+  --THEME3_color_VDV_screen_bg: hsl(268, 71%, 12%);
+  --THEME3_color_DV_key_bg: hsl(281, 89%, 26%);
+  --THEME3_color_VM_key_shadow: hsl(285, 91%, 52%);
+  --THEME3_color_PC_key_bg: hsl(176, 100%, 44%);
+  --THEME3_color_PC_key_bg_toggle: hsl(176, 100%, 44%);
+  --THEME3_color_SC_key_shadow: hsl(177, 92%, 70%);
+  --THEME3_color_VDV_key_bg: hsl(268, 47%, 21%);
+  --THEME3_color_DM_key_shadow: hsl(290, 70%, 36%);
+  --THEME3_color_LY: hsl(52, 100%, 62%);
+  --THEME3_color_VDB: hsl(198, 20%, 13%);
+}
+
+.theme3_bg_body {
+  background-color: var(--THEME3_color_VDV_main_bg);
+}
+
+.theme3 .theme3_text_white {
+  color: var(--white);
+}
+
+.theme3 .theme_text_ly {
+  color: var(--THEME3_color_LY);
+}
+
+.theme3 .theme3_style_range_srt::-webkit-slider-runnable-track {
+  background-color: var(--THEME3_color_VDV_toggle_bg);
+}
+
+.theme3 .theme3_style_range_st::-webkit-slider-thumb {
+  background-color: var(--THEME3_color_PC_key_bg_toggle);
+}
+
+.theme3 .theme3_display_screen {
+  background-color: var(--THEME3_color_VDV_screen_bg);
+}
+
+.theme3 .theme3_result {
+  color: var(--THEME3_color_LY);
+}
+/*-------------------------------*/

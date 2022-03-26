@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="./styles/calculator.css" />
     <link rel="stylesheet" href="./styles/theme01.css" />
     <link rel="stylesheet" href="./styles/theme02.css" />
+    <link rel="stylesheet" href="./styles/theme03.css" />
     <link rel="stylesheet" href="./styles/attribution.css" />
 
     <!-- IMPORT FONTS -->
@@ -44,30 +45,31 @@
   <body>
     <div class="container">
       <header>
-        <span class="title theme1_text_white theme2_text_white"
+        <span class="title theme1_text_white theme2_text_white theme_text_ly"
           >Calculator</span
         >
         <div class="change_theme">
-          <span class="range_description theme1_text_white theme2_text_white"
+          <span
+            class="range_description theme1_text_white theme2_text_white theme_text_ly"
             >THEME</span
           >
           <div>
             <div class="theme_options">
               <span
-                class="change_theme_label theme1_text_white theme2_text_white"
+                class="change_theme_label theme1_text_white theme2_text_white theme_text_ly"
                 >1</span
               >
               <span
-                class="change_theme_label theme1_text_white theme2_text_white"
+                class="change_theme_label theme1_text_white theme2_text_white theme_text_ly"
                 >2</span
               >
               <span
-                class="change_theme_label theme1_text_white theme2_text_white"
+                class="change_theme_label theme1_text_white theme2_text_white theme_text_ly"
                 >3</span
               >
             </div>
             <input
-              class="theme1_style_range_srt theme1_style_range_st theme2_style_range_srt theme2_style_range_st"
+              class="theme1_style_range_srt theme1_style_range_st theme2_style_range_srt theme2_style_range_st theme3_style_range_srt theme3_style_range_st"
               id="theme_range"
               type="range"
               min="1"
@@ -79,8 +81,12 @@
       </header>
 
       <main>
-        <div class="display theme1_display_screen theme2_display_screen">
-          <span class="result theme1_result theme2_result">386.24</span>
+        <div
+          class="display theme1_display_screen theme2_display_screen theme3_display_screen"
+        >
+          <span class="result theme1_result theme2_result theme3_result"
+            >386.24</span
+          >
         </div>
       </main>
 
