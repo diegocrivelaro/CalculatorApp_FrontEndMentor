@@ -44,4 +44,8 @@
 .theme3 .theme3_result {
   color: var(--THEME3_color_LY);
 }
+
+.theme3 .theme3_key_bg {
+  background-color: var(--THEME3_color_VDV_keypad_bg);
+}
 /*-------------------------------*/
