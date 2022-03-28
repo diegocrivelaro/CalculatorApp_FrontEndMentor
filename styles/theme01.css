@@ -38,4 +38,8 @@
 .theme1 .theme1_result {
   color: var(--white);
 }
+
+.theme1 .theme1_key_bg {
+  background-color: var(--THEME1_color_keypad_bg);
+}
 /*-------------------------------*/
